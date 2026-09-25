@@ -22,3 +22,22 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# VS Code files
+# Stores VSCode versions used for testing VSCode extensions
+.vscode/
+.vscode-test
+
+# AI development artifacts: skills, context, prompts, instructions, and agent-specific files
+.ai/
+.ai-context/
+.context/
+.vibes/
+.agents/
+.skills/
+.cursor/
+.cursorrules
+.windsurfrules
+.opencode/
+openspec/
+skills-lock.json
